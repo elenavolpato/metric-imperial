@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    display: block;
+    width: 550px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    background-color: #111827;
+    color: white;
+    
+}
+
+#hero{
+    background-color: #10B981;
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    
+}
+h2{ 
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+input {
+    line-height: 1em;
+    width: 120px;
+    text-align: inherit;
+    font-size: 58px;
+    font-weight: 900;
+    border: 2px solid white;
+    color: white;
+    background-color: #047857;
+    border-radius: 6px;
+}
+button {
+    border: none;
+    padding: 10px 15px;
+    margin: 25px auto;
+    color: #047857;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 4px;
+    background-color: #ECFDF5;
+    opacity: 0.8;
+    width: 120px;
+}
+
+button:active:active{
+    transform: scale(0.95);
+    transition: 0.1s;
+    
+    
+}
+button:hover{
+    opacity: 1;
+    transition: 0.1s;
+}
+
+.units{
+    background-color: #1F2937;
+    padding: 10px 0 20px 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.converted-el{
+    background-color: #273549;
+    margin: 20px;
+    padding: 20px 10px;
+    border-radius: 6px;
+}
+.converted-el h3 {
+    color:#6EE7B7;
+    font-size: 22px;
+    margin:8px;
+}
+
+.converted-el p {
+    line-height: 1.5em;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
